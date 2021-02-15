@@ -1,0 +1,52 @@
+body {
+  background-color: #e9ecef;
+}
+.box-order {
+  background: #02a3c4;
+  color: whitesmoke;
+}
+.box-rate {
+  background: #009751;
+  color: whitesmoke;
+}
+.box-user {
+  background: #e7ae02;
+  color: whitesmoke;
+}
+.box-visitors {
+  background: #dc3545;
+  color: whitesmoke;
+}
+
+.bi {
+  transition: transform 100ms ease-in;
+}
+.bi:hover {
+  transform: scale(1.07);
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 100ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.option {
+  display: flex;
+  align-items: baseline;
+}
+
+.option > button {
+  margin-left: auto;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  bottom: 0 auto;
+  /* background-color: #fff; */
+}
